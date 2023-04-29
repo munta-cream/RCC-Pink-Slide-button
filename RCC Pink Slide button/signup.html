@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>SignUp</title>
+	<!-- Favicon -->
+	<link rel="icon" href="media/favicon.png">
+	<!-- CSS File -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/jquery-3.6.1.min.js"></script>	
+	<script type="text/javascript" src="js/search.js"></script>
+</head>
+<body>
+	<header class="header">
+		<div class="header-text head-text__announced">
+		<span>COVID-19 UPDATE</span> We are open with limited hours and staff.
+		</div>
+		<nav class="navbar">
+			<div class="nav">
+				<a href="index.html"><img src="media/logo.png" class="brand-logo" alt="Hikez"></a>
+				<p class="brand-name">RCC</p> 
+				<div class="nav-items">
+					<div class="searchbox">
+						<input type="text" id="x" placeholder="Search Products" class="modal_search">
+						<button class="search-btn" type="button">Search</button>
+					</div>
+					<a href="login.html"><img src="media/user.png" alt=""></a>
+					<a href="basket.html"><img src="media/cart.png" alt=""></a>
+				</div>
+			</div>
+			<ul class="links-container">
+				<li class="link-item"><a href="index.html" class="link">Home</a></li>
+				<li class="link-item"><a href="camping-equipments.html" class="link">Camping Equipments</a></li>
+				<li class="link-item"><a href="wearing-bags.html" class="link">Wearings & Bags</a></li>
+				<li class="link-item"><a href="furnitures-tents.html" class="link">Furnitures & Tents  </a></li>
+				<li class="link-item"><a href="cooking-accessories.html" class="link">Cooking Accessories</a></li>
+				<li class="link-item"><a href="offers-packages.html" class="link">Offers & Packages</a></li>
+				<li class="link-item"><a href="reviews.html" class="link">Reviews & Feedbacks</a></li>
+			</ul>
+		</nav>
+	</header>
+    <!-- Sign-Up -->
+
+    <div class="container signup-container">
+      <p>
+        Please fill in this form to create an account. or
+        <a href="login.html">Login</a>
+      </p>
+      <div class="sign-up">
+        <form>
+          <h1>Sign-up Here</h1>
+          <hr>
+          <input type="text" name="first name" id="fname" placeholder="User First Name" required>
+          <input type="text" name="last name" id="lname" placeholder="User Last Name" required>
+          <input type="text" name="email" id="email" placeholder="Enter your email" required>
+          <input type="tel" name="phone" id="phone" placeholder="Enter your mobile number" required="">
+          <br>
+          <textarea class="adress" cols="50" rows="3" placeholder="Enter your adress here"></textarea>
+          <br>
+          <input type="password" name="password" id="password" placeholder="Type Password" required>
+          <input type="password" name="re-password" id="re_password" placeholder="Re-type Password" required>
+        
+        
+          <div class="date_of_birth">
+          <span class="DOB">DATE OF BIRTH</span><br>
+          <input name="birthdate" type="date" required="">       
+          <br>
+          <span class="user_gender">Gender</span><br>
+
+          <input type="radio" name="user_gender" value="male">Male
+          <input type="radio" name="user_gender" value="male">Female
+          <input type="radio" name="user_gender" value="others">Others
+          <br>          
+          <input type="checkbox"> I Accept Terms and Conditions
+          <br>
+          <input type="submit" value="Create an account">
+          </div>
+        
+        </form>   
+      </div>	
+      <p>
+        By creating an account you agree to our <a href="#">Terms & Privacy</a>.
+      </p>
+    </div>
+    <!-- Footer -->
+	<footer class="footer">
+		<div class="footer-left">
+			<a href="index.html"><img src="media/logo.png" class="footer-logo" alt=""></a>
+			<p class="copyright"> Hikez RCC &copy; 2023 </p>
+		</div>
+	<div class="row">			
+			<div class="col d-flex">
+				<h4>INFORMATION</h4>
+				<a href="">About us</a>
+				<a href="">Contact Us</a>
+				<a href="">Shipping Guide</a>
+			</div>
+			<div class="col d-flex">
+				<h4>USEFUL LINK</h4>
+				<a href="">Online Store</a>
+				<a href="">Customer Services</a>
+				<a href="">Term & Conditions</a>
+			</div>
+	</div>		
+	<div class="social-links">
+			<ul class="icon li">
+				<li><a href="https://www.facebook.com/"><img src="./media/facebook.png" alt="facebook"></a></li>
+				<li><a href="https://www.instagram.com/"><img src="./media/instagram.png" alt="instagram"></a></li>
+				<li><a href="https://www.twitter.com/"><img src="./media/twitter.png" alt="twitter"></a></li>
+				<li><a href="https://web.telegram.org/z/"><img src="./media/telegram.png" alt="telegram"></a></li>
+				<li><a href="https://web.whatsapp.com/"><img src="./media/whatsapp.png" alt="whatsapp"></a></li>
+			</ul>
+			<ul>
+				<li>For inquiries email us hikezrcc@email.com</li>
+				<li>Contact number: +447975777666</li>
+			</ul>
+	</div>		
+
+	</footer>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/popup.js"></script>
+</body>
+</html>
